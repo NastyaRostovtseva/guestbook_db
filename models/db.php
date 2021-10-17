@@ -3,7 +3,6 @@
 function addData()
 {
     if ($_POST["email"] !== '' && $_POST["text"] !== '') {
-
         $conn = mysqli_connect("localhost", "root", "root", "guestbook");
         if (!$conn) {
             die("Ошибка: " . mysqli_connect_error());
@@ -18,10 +17,8 @@ function addData()
     }
 }
 
-
 function deleteData($id)
 {
-
     $conn = mysqli_connect("localhost", "root", "root", "guestbook");
     if (!$conn) {
         die("Ошибка: " . mysqli_connect_error());
@@ -34,9 +31,7 @@ function deleteData($id)
         echo "Ошибка: " . mysqli_error($conn);
     }
     mysqli_close($conn);
-
 }
-
 
 function getIdComment($id)
 {

@@ -5,8 +5,6 @@ $file = $_FILES['file'];
 $email = $_POST['email'];
 $text = $_POST['text'];
 
-
-
 function validateComments($email, $text)
 {
     $error = '';
@@ -30,7 +28,6 @@ function addComments()
     }
 }
 
-
 function getComments()
 {
     $conn = mysqli_connect("localhost", "root", "root", "guestbook");
@@ -41,7 +38,6 @@ function getComments()
 
 function deleteComment()
 {
-
     $delete = $_POST['delete'];
     if($delete) {
         deleteData();

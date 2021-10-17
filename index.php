@@ -3,18 +3,10 @@ require_once 'view/comment.php';
 require_once 'models/comment.php';
 require_once 'models/db.php';
 
-
 $arrComments = getComments();
-
-
 ?>
 
-
 <?php foreach ($arrComments as $key => $comment): ?>
-
-
-
-
 <div class="container d-flex justify-content-center">
     <div class="col-6">
     <hr>

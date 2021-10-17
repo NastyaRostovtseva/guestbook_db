@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f70e566-06d4-4a72-ac63-759b7c2156cc" name="Default Changelist" comment="comments are added to the database" />
+    <list default="true" id="7f70e566-06d4-4a72-ac63-759b7c2156cc" name="Default Changelist" comment="comments are added to the database">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/db.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +55,7 @@
       <workItem from="1634449582462" duration="2939000" />
       <workItem from="1634474635452" duration="4470000" />
       <workItem from="1634480519565" duration="574000" />
-      <workItem from="1634481173889" duration="701000" />
+      <workItem from="1634481173889" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixed">
       <created>1634314014062</created>
