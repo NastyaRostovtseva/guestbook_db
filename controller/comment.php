@@ -1,6 +1,5 @@
 <?php
 require_once '../models/comment.php';
-require_once '../models/db.php';
 
 if($_POST && $_POST['add']) {
     $email = $_POST['email'];
@@ -10,5 +9,5 @@ if($_POST && $_POST['add']) {
     header('Location: ../index.php');
 } elseif($_POST && $_POST['delete']) {
     deleteComment();
-    deleteData();
+    header('Location: ../index.php');
 }

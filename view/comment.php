@@ -20,7 +20,7 @@
                 </label>
             </div>
             <br>
-            <input class="btn btn-primary" name="id" type="submit" value="Отправить">
+            <input class="btn btn-primary" type="submit" value="Отправить">
             <input type="hidden" name="add" value="add">
         </form>
     </div>

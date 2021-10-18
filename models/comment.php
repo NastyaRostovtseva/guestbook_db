@@ -38,8 +38,13 @@ function getComments()
 
 function deleteComment()
 {
-    $delete = $_POST['delete'];
-    if($delete) {
-        deleteData();
+    $arrComm = getComments();
+    foreach ($arrComm as $key => $comment) {
+        $id = $comment['id'];
+        $delete = $_POST['delete'];
+        if($delete) {
+            deleteData($id);
+        }
+        return false;
     }
 }

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f70e566-06d4-4a72-ac63-759b7c2156cc" name="Default Changelist" comment="comments are added to the database">
+    <list default="true" id="7f70e566-06d4-4a72-ac63-759b7c2156cc" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/comment.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,11 @@
       <workItem from="1634449582462" duration="2939000" />
       <workItem from="1634474635452" duration="4470000" />
       <workItem from="1634480519565" duration="574000" />
-      <workItem from="1634481173889" duration="1099000" />
+      <workItem from="1634481173889" duration="1127000" />
+      <workItem from="1634485608623" duration="1937000" />
+      <workItem from="1634487594610" duration="11000" />
+      <workItem from="1634487643188" duration="5000" />
+      <workItem from="1634527129441" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixed">
       <created>1634314014062</created>
@@ -71,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634480978922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed">
+      <created>1634482298550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634482298550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fixed" />
     <MESSAGE value="comments are added to the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments are added to the database" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>

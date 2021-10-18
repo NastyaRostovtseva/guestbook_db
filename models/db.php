@@ -25,19 +25,6 @@ function deleteData($id)
     }
     $userid = mysqli_real_escape_string($conn, $id);
     $sql = "DELETE FROM comments WHERE id = '$userid'";
-    if(mysqli_query($conn, $sql)){
-        header("Location: index.php");
-    } else{
-        echo "Ошибка: " . mysqli_error($conn);
-    }
+    mysqli_query($conn, $sql);
     mysqli_close($conn);
-}
-
-function getIdComment($id)
-{
-    $conn = mysqli_connect("localhost", "root", "root", "guestbook");
-    mysqli_select_db($conn, "guestbook");
-    $title = "SELECT id FROM comments";
-    $id = mysqli_query($conn, $title);
-    return $id;
 }
